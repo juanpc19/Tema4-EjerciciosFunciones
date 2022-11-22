@@ -35,7 +35,7 @@ public class Ejercicio3 {
 		
 		altura = dogma.nextDouble();
 		
-		System.out.print("Seleccione 1: para obtener el area del cilindro.\n 2: para obtener el volumen del cilindro");
+		System.out.print("Seleccione:\n1 para obtener el area del cilindro.\n2 para obtener el volumen del cilindro.");
 
 		seleccion = dogma.nextInt();
 		
