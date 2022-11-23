@@ -29,6 +29,8 @@ public class Ejercicio1 {
 		numeroIntroducido = dogma.nextInt();
 		
 		//Llamo a funcion eco y le doy valor con variable numeroIntroducido
+		//Ejemplo: Para dar varios valores a la funcion eco DE FORMA ORDENADA, POR ORDEN DE ENTRADA! 
+		//eco (numeroIntroducido, area, volumen);
 		eco (numeroIntroducido);
 		
 		//Cierro escaner
