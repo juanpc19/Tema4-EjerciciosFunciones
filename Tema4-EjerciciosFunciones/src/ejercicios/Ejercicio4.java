@@ -4,15 +4,13 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
 	
+	//Antes de llmar ver si 1 mayor que 2
 	static int mayor (int numero1, int numero2) {
 		
-		int numeroMayor;
+		int numeroMayor = numero1;
 		
-		if (numero1>numero2) {
-			numeroMayor = numero1;
-			
-		} else {
-				numeroMayor = numero2;
+		if (numero1<numero2) {
+			numeroMayor = numero2;
 		}
 		
 		return (numeroMayor);

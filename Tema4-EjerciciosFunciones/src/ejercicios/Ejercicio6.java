@@ -8,12 +8,18 @@ public class Ejercicio6 {
 		
 		boolean esPrimo=true;
 		
+		if (n==1) {
+			esPrimo=false;
+		
+		} else {
+		
 		for (int i=2; i<n; i++) {
 			
-			if (n%i==0) {
+			  if (n%i==0) {
 				esPrimo=false;
 					break;	
-			} 
+			  	}
+			}
 		}
 		
 		return esPrimo;
@@ -29,7 +35,7 @@ public class Ejercicio6 {
 		
 		numeroIntroducido = dogma.nextInt();
 		
-		System.out.println(esPrimo (numeroIntroducido));
+		System.out.println(esPrimo(numeroIntroducido) ? "El numero introducido es primo. " : "El numero introducido no es primo. ");
 		
 		dogma.close();
 

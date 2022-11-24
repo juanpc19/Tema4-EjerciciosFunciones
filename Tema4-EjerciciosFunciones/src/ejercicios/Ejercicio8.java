@@ -18,7 +18,7 @@ public class Ejercicio8 {
 		
 		case 4 -> resultado = operando1 / operando2;
 		
-		default -> System.out.println("Error al seleccionar que operacion llevar a cabo");
+		default -> System.out.println("Error al seleccionar que operacion llevar a cabo. ");
 		
 		}
 		

@@ -6,12 +6,13 @@ public class Ejercicio5 {
 	
 	static boolean vocal (String letra) {
 		
+		boolean resultado = false;
+		
 		if (letra.equals("a") || letra.equals("e") || letra.equals("i") || letra.equals("o") || letra.equals("u")) {
-			return true;
+			resultado = true;	
+		} 
 			
-		} else {
-			return false;
-		}
+		return (resultado);
 	}
 
 	public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class Ejercicio5 {
 
 		letra = dogma.nextLine();
 		
-		System.out.println(vocal (letra)); 
+		System.out.println((vocal (letra))? "La letra introducida es una vocal. " : "La letra introducida no es una vocal. "); 
 		
 		dogma.close();
 	}
